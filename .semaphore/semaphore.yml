@@ -27,6 +27,6 @@ blocks:
           - 'echo "${DOCKER_PASSWORD}" | docker login -u "${DOCKER_USERNAME}" --password-stdin'
           - cat docker-compose.ci.yml | envsubst | tee docker-compose.yml
       jobs:
-        - name: integration test
+        - name: Integration test
           commands:
             - docker-compose run app npm test
