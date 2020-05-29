@@ -8,9 +8,9 @@ services:
     ports:
       - '5432:5432'
     volumes:
-      - src-db:/var/lib/postgresql/data
+      - app-db:/var/lib/postgresql/data
 
-  addressbook:
+  app:
     build:
       context: .
     environment:
@@ -24,4 +24,4 @@ services:
       - '3000:3000'
 
 volumes:
-  addressbook-db:
+  app-db:
