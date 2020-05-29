@@ -1,5 +1,8 @@
 # Dockerized-Node-Stack
 
+This Dockerized app is made in Node.JS. It uses [Semaphore](https://semaphoreci.com) and [Docker Hub](https://hub.docker.com) for CI.
+Also, [PM2](https://pm2.keymetrics.io/docs/usage/quick-start/) a production process manager for Node.Js is used.
+
 ## Install & Run
 
 To start the application:
