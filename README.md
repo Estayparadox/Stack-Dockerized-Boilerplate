@@ -97,5 +97,5 @@ $> docker-compose run app npm run migrate
 
 To download the image from Docker Hub:
 ```
-$ docker pull YOUR_DOCKER_USERNAME/dockerizing-nodejs-addressbook:latest
+$> docker pull YOUR_DOCKER_USERNAME/dockerized-node-app:latest
 ```
