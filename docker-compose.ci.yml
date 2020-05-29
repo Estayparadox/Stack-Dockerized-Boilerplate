@@ -9,7 +9,7 @@ services:
       - '5432:5432'
 
   app:
-    image: $DOCKER_USERNAME/Dockerized-Node-Stack:latest
+    image: $DOCKER_USERNAME/dockerized-node-stack:latest
     command: "npn run migrate && npm run pm2"
     environment:
       DB_SCHEMA: postgres
