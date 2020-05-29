@@ -91,3 +91,8 @@ To run the migration script inside the container, build docker image, create per
 ```
 $> docker-compose run app npm run migrate
 ```
+
+To download the image from Docker Hub:
+```
+$ docker pull YOUR_DOCKER_USERNAME/dockerizing-nodejs-addressbook:latest
+```
