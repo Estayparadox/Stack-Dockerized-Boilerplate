@@ -1,4 +1,5 @@
 # Dockerized-Node-Stack
+[![Build Status](https://estayparadox.semaphoreci.com/badges/Dockerized-Node-Stack/branches/master.svg)](https://estayparadox.semaphoreci.com/projects/Dockerized-Node-Stack)
 
 This Dockerized app is made in Node.JS. It uses [Semaphore](https://semaphoreci.com) and [Docker Hub](https://hub.docker.com) for CI.
 Also, [PM2](https://pm2.keymetrics.io/docs/usage/quick-start/) a production process manager for Node.Js is used.
